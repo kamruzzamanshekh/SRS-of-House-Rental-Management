@@ -1,0 +1,53 @@
+Actors
+	Primary Actor
+		Owner
+		Tenant
+	
+	Secondary Actor
+		Financial Service (bKash, Rocket, Nagad)
+
+Use Cases
+	Register
+		Tenant <-Genaralization
+		Owner <-Genaralization
+	Login
+		Verify Password<<include>>
+		Display Error<<extend>>
+	See Profile
+	
+	Set Profile
+	
+	See Notifications
+		See Rent Notifications <-Genaralization
+		Show Messages <-Genaralization
+	
+	See Favourites
+	
+	Add House
+	
+	Search For House
+	
+	Create Ads
+		Edit Ads <-Generalization
+	
+	Remove Ads
+	
+	See Ads
+		See Added Ads <-Generalization
+		See Current Ads
+	
+	Boost Ad
+	
+	See Old Ads
+	
+	See Houses
+	
+	Payment
+	
+	Show Houses Nearby
+	
+	Make Payment
+	
+	Transaction
+	
+	Mobile Financial Service
